@@ -18,12 +18,12 @@ class Timestamps {
         /*
          *  your code goes here
          */
-         int deltaH = hours2 - hours1
-         int deltaM = minutes2 - minutes1
-         int deltaS = seconds2 - seconds1 
-         int secDeltaH = deltaH * 3600
-         int secDeltaM = deltaM * 60
-         int totalSecs = secDeltaH + secDeltaM + deltaS
+         int deltaH = hours2 - hours1;
+         int deltaM = minutes2 - minutes1;
+         int deltaS = seconds2 - seconds1;
+         int secDeltaH = deltaH * 3600;
+         int secDeltaM = deltaM * 60;
+         int totalSecs = secDeltaH + secDeltaM + deltaS;
 
         // closing the scanner object
         scanner.close();
