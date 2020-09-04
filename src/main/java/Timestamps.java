@@ -24,6 +24,7 @@ class Timestamps {
          int secDeltaH = deltaH * 3600;
          int secDeltaM = deltaM * 60;
          int totalSecs = secDeltaH + secDeltaM + deltaS;
+         System.out.print(totalSecs);
 
         // closing the scanner object
         scanner.close();
